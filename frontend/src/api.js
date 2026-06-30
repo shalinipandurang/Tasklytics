@@ -1,7 +1,7 @@
 const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
 export const API_BASE_URL = isLocal 
   ? 'http://127.0.0.1:4000/api' 
-  : 'https://studenttaskmanager-91tz.onrender.com/api';
+  : 'https://tasklytics-kggt.onrender.com/api';
 
 export async function fetchAPI(endpoint, options = {}) {
   try {
